@@ -1,0 +1,55 @@
+header {
+  background-color: #34a4eb;
+  width: 100%;
+  color: #fff;
+}
+
+h1 {
+  margin: 0 25px;
+}
+
+.content {
+  margin-left: 0 25px;
+}
+
+.cards-wrapper {
+  display: flex;
+  margin: 0 25px;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 6px;
+  width: 200px;
+  border: 1px solid #dadada;
+  margin: 0 15px;
+  margin-bottom: 20px;
+}
+
+.phone-review-title {
+  background-color: #34a4eb;
+  border: 1px solid #dadada;
+  border-radius: 6px 6px 0 0;
+  color: #fff;
+  text-align: center;
+}
+
+.phone-review-image-wrapper {
+  width: 100%;
+  height: 200px;
+}
+
+.phone-review-image-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.phone-review-rating {
+  border-top: 1px solid #dadada;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
