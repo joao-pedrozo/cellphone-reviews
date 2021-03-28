@@ -3,6 +3,10 @@ header {
   width: 100%;
 }
 
+h1 {
+  margin: 0 25px;
+}
+
 h1 a {
   margin: 0 25px;
   color: #fff;
@@ -56,6 +60,12 @@ th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.phone-info-wrapper-tags {
+  background-color: #34a4eb;
+  color: #fff;
+
 }
 
 @media (max-width: 600px) {
