@@ -51,7 +51,6 @@ table {
   width: 100%;
 }
 
-td,
 th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -68,9 +67,66 @@ tr:nth-child(even) {
 
 }
 
-@media (max-width: 600px) {
-  .phone-description {
-    margin-left: 0;
-    margin-right: 0;
-  }
+.login {
+  display: flex;
+  flex-direction: column;
+  margin: 100px ;
+  justify-content: center;
+  align-items: center;
 }
+
+.login input {
+  padding: 10px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.block {
+padding: 10px;
+}
+
+  .buttonLogin {
+    background-color: #34a4eb;
+    margin: 20px ;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .login h1 {
+    margin: 10px;
+    font-family: decorative;
+    font-size: 42px;
+  }
+
+  @media (max-width: 600px) {
+    .phone-description {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .register {
+    display: flex;
+    margin: 20px;
+  }
+
+  #descricao {
+    padding: 80px;
+    width: 280px;
+  }
+
+  .register input{
+    padding: 8px;
+    border-radius: 10px;
+    width: 400px;
+  }
+
+  .add {
+    margin: 10px ;
+  }
+
+  
+  
+  
