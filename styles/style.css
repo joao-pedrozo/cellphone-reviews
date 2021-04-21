@@ -5,6 +5,7 @@ header {
   width: 100%;
   color: #fff;
   display: flex;
+  align-items: center;
 }
 
 h1 {
@@ -65,16 +66,16 @@ h1 {
 }
 
 #divBusca{
-  background-color: #34a4eb;
-  border: solid 2px rgb(255, 255, 255);
+  background-color: #8bcdf7;
+  border: solid 2px rgb(206, 232, 243);
   border-radius: 10px;
   width: 400px;
-  height: 32px;
-  margin-left: auto;
+  height: 34px;
+  margin-left: 650px;
 }
 
+
 #txtBusca {
-  float: left;
   background-color: transparent;
   padding-left: 10px;
   font-size: 18px;
@@ -84,14 +85,20 @@ h1 {
 }
 
 
-button#btnBusca {
-  background-color: #34a4eb;
+.btnBusca {
   border: transparent ;
+  border-color: white;
   border-radius: 10px;
-  width: 90px;
+  width: 20px;
   height: 30px;
-  float: right ;
-  font-weight: bold;
+}
+
+.btnlogin {
+  background-color: rgb(206, 232, 243);
+  border-color: white;
+  border-radius: 10px;
+  width: 80px;
+  padding: 10px;
 }
 
 #divBusca img {
@@ -102,8 +109,6 @@ button#btnBusca {
   flex: auto;
   padding: 5px;
   text-align: left;
-  
-
 }
 
 .returnHomeIphone img{
@@ -114,6 +119,7 @@ li {
   display: inline;
   vertical-align: middle;
 }
+
 
 
 
