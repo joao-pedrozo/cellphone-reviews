@@ -1,0 +1,13 @@
+.compare-link-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.compare-button-wrapper {
+  max-width: 100px;
+}
+
+a button {
+  width: 100%;
+}
