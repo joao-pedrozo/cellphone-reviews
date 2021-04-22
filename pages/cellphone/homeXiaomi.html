@@ -11,47 +11,59 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/pages.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
   </head>
   <body>
     <header>
-        <h1><a href="/">ReviewCell</a></h1>
+      <header>
+        <h1><a href="../../../index.html">ReviewCell</a></h1>
+      </header>
 
-        <div id = "divBusca">
-          <input type="search" id="txtBusca" placeholder="busque aqui nomes, marcas..."/>
-          <button id="btnBusca">Buscar<img src="https://image.flaticon.com/icons/png/128/44/44623.png" id="btnBusca" alt="Buscar"></button>
+      <div class="search-area">
+        <div class="inputWrapper">
+          <input type="text" placeholder="Pesquise aqui :)" />
         </div>
+
+        <a href="/login.html">
+          <button>Login</button>
+        </a>
+      </div>
     </header>
 
     <nav class="navigation">
       <ul>
-        <li><a class="returnHomeIphone" href="/index.html"> <img src="../../../img/home-icon-for-website-7.jpg" alt=""></a></li>
+        <li>
+          <a class="returnHomeIphone" href="/index.html">
+            <img src="../../../img/home-icon-for-website-7.jpg" alt=""
+          /></a>
+        </li>
         <span> > </span>
-        <li><a href="../cellphone/homeXiaomi.html"><span>Xiaomi</span></a></li>
-     </ul>
+        <li>
+          <a href="../cellphone/homeXiaomi.html"><span>Xiaomi</span></a>
+        </li>
+      </ul>
     </nav>
-     
+
     <div class="content">
       <div class="cards-wrapper">
-
-            
         <a class="card" href="xiaomi/xiaomiMI9T.html">
-            <div class="phone-review-title">
-              <span>Xiaomi MI 9T PRO</span>
-            </div>
-            <div class="phone-review-image-wrapper">
-              <img 
-              src="https://img.ibxk.com.br/2019/06/04/04135235481170.jpg" 
-              alt="">
-            </div>
-            <div class="phone-review-rating">
-              <span>???</span>
-              <span>★★★</span>
-            </div>
-          </a>
-
+          <div class="phone-review-title">
+            <span>Xiaomi MI 9T PRO</span>
+          </div>
+          <div class="phone-review-image-wrapper">
+            <img
+              src="https://img.ibxk.com.br/2019/06/04/04135235481170.jpg"
+              alt=""
+            />
+          </div>
+          <div class="phone-review-rating">
+            <span>???</span>
+            <span>★★★</span>
+          </div>
+        </a>
       </div>
-     </div>
+    </div>
   </body>
 </html>
