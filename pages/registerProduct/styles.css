@@ -1,0 +1,8 @@
+header h1 a {
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
