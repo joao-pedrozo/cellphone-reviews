@@ -5,16 +5,25 @@ const port = 3000;
 
 const app = express();
 
-//------------------------------RENDERIZAÇÂO EJS-----------------------------------
+//Objeto com as informações da index
+/*let card = {
+    nome : "Iphone",
+    img : "./img/Apple.png"
+
+}*/
+
+//------------------------------RENDERIZAÇÂO COM EJS-----------------------------------
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "./views"));
+app.set("views", path.join(__dirname, "./views")); //Onde vamos fazer a renderização
 
 //---------------------------------------ROTAS----------------------------------------------
 app.use(express.static(path.join(__dirname, "./static")));
 
+//Index
+let dadosMarcas = require('./dadosMarcas/marcas.json'); //Trazendo marcas.json para variavel dadosMarcas
+
 app.get("/", (req, res) => {
-  //res.sendFile(path.join(__dirname, "./static/index.html"));
-  res.render("index");
+  res.render("layout/template", { marcas : dadosMarcas, conteudo : "index" });
 });
 
 //HomeIphone
