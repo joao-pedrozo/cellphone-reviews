@@ -1,0 +1,26 @@
+[
+    {
+        "modelo" : "Iphone 11",
+        "estrelas" : "★★★★",
+
+        "img" : "https://t2.tudocdn.net/492959?w=152&h=304",
+        "text" : "O Apple iphone 11 é um dos smatphones iOS mais avaçados e completos que existe em circulação.",
+
+        "sistemaOperacional" : "iOS 13",
+        "disponibilidade" :"2019/3",
+        "dimensao" : "150.9 x 75.7 x 8.3 mm",
+        "peso": "194 gramas",
+        
+        "melhorPreco" : "R$ 3.998",
+        "faixaDePreco" : "R$ 3.998 - R$ 7.199",
+
+        "custoBeneficio" : "6.4 / 10",
+        "hardware" : "8.7 / 10",
+        "tela" : "8 / 10",
+        "camera" : "8.1 / 10",
+        "desempenho" : "9.3 / 10"
+                    
+    }
+
+
+]
