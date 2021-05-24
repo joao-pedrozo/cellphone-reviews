@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ReviewCell</title>
+    <title>ReviewCell Cadastrar</title>
+    <link rel="stylesheet" href="./register.css" />
     <%- include('../../layout/link.ejs') %>
   </head>
+
   <body>
-    <header><%- include('../navigation.ejs') %></header>
+    <header>
+      <h1><a href="/">ReviewCell</a></h1>
+    </header>
 
-    <%- include('./navigation.ejs')%>
-
-    <div class="content">
-      <div class="cards-wrapper"><%- include(`../../${conteudo}`) %></div>
+    <div>
+      <div class="content"><%- include(`../../${conteudo}`) %></div>
     </div>
   </body>
 </html>

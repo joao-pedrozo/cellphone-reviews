@@ -1,5 +1,7 @@
 [
-    {
+    {           
+                "enderecoMarca": "/homeAsus",
+                "marca" : "Asus",
                 "modelo" : "Asus ROG Phone 3",
                 "estrelas" : "★★★★",
         

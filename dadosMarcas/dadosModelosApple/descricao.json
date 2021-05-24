@@ -1,5 +1,8 @@
 [
     {
+        "endereco": "Iphone11",
+        "enderecoMarca": "/homeIphone",
+        "marca" : "Apple",
         "modelo" : "Iphone 11",
         "estrelas" : "★★★★",
 

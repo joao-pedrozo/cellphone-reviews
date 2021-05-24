@@ -4,37 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <%- include('../../layout/link.ejs')%> 
-
+    <%- include('../../layout/link.ejs')%>
     <title>Descrição do modelo</title>
   </head>
   <body>
-      <header>
-            <%- include('../navigation.ejs') %>
-      </header>
-      
-<!--Deixar Dinâmico !!!!!!!!!!!!!!!!!!!!!!!!!!-->
-<nav class="navigation">
-      <ul>
-        <li>
-          <a class="returnHomeIphone" href="/">
-            <img src="../../../img/home-icon-for-website-7.jpg"
-          /></a>
-        </li>
-        <span> > </span>
-        <li>
-          <a href="../homeIphone"><span>Iphones</span></a>
-        </li>
-        <span> > </span>
-        <li>
-          <a href="../iphone11"><span>Iphone 1111111</span></a>
-        </li>
-      </ul>
-    </nav>
-  
-    <div class="content">
-      <%- include(`../../${conteudo}`) %>
-    </div>
+    <header><%- include('../navigation.ejs') %></header>
 
+    <%- include('./navigationDescricao.ejs') %>
+
+    <div class="content"><%- include(`../../${conteudo}`) %></div>
   </body>
 </html>

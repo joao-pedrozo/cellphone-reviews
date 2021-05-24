@@ -1,82 +1,74 @@
 <% descricaoModelo.forEach(descricaoModelo => { %>
     <div class="phone-title-wrapper">
-        <h2> <%= descricaoModelo.modelo %></h2>
-        <span><%= descricaoModelo.estrelas %></span>
+    <h2><%= descricaoModelo.modelo %></h2>
+    <span><%= descricaoModelo.estrelas %></span>
     </div>
 
-    <!--A INDA ESTÀTICO !!!!!-->
-    <div class="compare-link-container">
-        <a href="../../compareCell/index.html" class="compare-button-wrapper">
-            <button>Comparar</button>
-        </a>
-    </div>
-
+    <%- include('./layout/buttonComparar.ejs')%>
 
     <div class="main-phone-info">
-        <div class="phone-image-wrapper">
+    <div class="phone-image-wrapper">
         <img src="<%= descricaoModelo.img %>" alt="" />
-        </div>
-        <div class="phone-description">
-            <span>
-                <%= descricaoModelo.text %>
-            </span>
-        </div>
+    </div>
+    <div class="phone-description">
+        <span> <%= descricaoModelo.text %> </span>
+    </div>
     </div>
     <div class="phone-info-wrapper">
-        <table>
-            <tr>
-                <th class="phone-info-wrapper-tags">Especificações</th>
-            </tr>
-            <tr>
-                <th> sistemaOperacional</th>
-                <td><%= descricaoModelo.sistemaOperacional %></td>
-            </tr>
-            <tr>
-                <th>Disponibilidade</th>
-                <td><%= descricaoModelo.disponibilidade%></td>
-            </tr>
-            <tr>
-                <th>Dimensões</th>
-                <td><%= descricaoModelo.dimencao %></td>
-            </tr>
-            <tr>
-                <th>Peso</th>
-                <td><%= descricaoModelo.peso %></td>
-            </tr> 
-            <tr>
-                <th class="phone-info-wrapper-tags">Preços</th>
-            </tr>
-            <tr>
-                <th>Melhor Preço</th>
-                <td><%= descricaoModelo.melhorPreco %></td>
-            </tr>
-            <tr>
-                <th>Faixa de Preço</th>
-                <td><%= descricaoModelo.faixaDePreco %></td>
-            </tr>
-            <tr>
-                <th class="phone-info-wrapper-tags">Notas</th>
-            </tr>
-            <tr>
-                <th>Custo-benefício</th>
-                <td><%= descricaoModelo.custoBeneficio %></td>
-            </tr>
-            <tr>
-                <th>Hardware</th>
-                <td><%= descricaoModelo.hardware %></td>
-            </tr>
-            <tr>
-                <th>Tela</th>
-                <td><%= descricaoModelo.tela %></td>
-            </tr>
-            <tr>
-                <th>Câmera</th>
-                <td><%= descricaoModelo.camera %></td>
-            </tr>
-            <tr>
-                <th>Desempenho</th>
-                <td><%= descricaoModelo.desempenho %></td>
-            </tr>
-        </table>
+    <table>
+        <tr>
+        <th class="phone-info-wrapper-tags">Especificações</th>
+        </tr>
+        <tr>
+        <th>sistemaOperacional</th>
+        <td><%= descricaoModelo.sistemaOperacional %></td>
+        </tr>
+        <tr>
+        <th>Disponibilidade</th>
+        <td><%= descricaoModelo.disponibilidade%></td>
+        </tr>
+        <tr>
+        <th>Dimensões</th>
+        <td><%= descricaoModelo.dimensao %></td>
+        </tr>
+        <tr>
+        <th>Peso</th>
+        <td><%= descricaoModelo.peso %></td>
+        </tr>
+        <tr>
+        <th class="phone-info-wrapper-tags">Preços</th>
+        </tr>
+        <tr>
+        <th>Melhor Preço</th>
+        <td><%= descricaoModelo.melhorPreco %></td>
+        </tr>
+        <tr>
+        <th>Faixa de Preço</th>
+        <td><%= descricaoModelo.faixaDePreco %></td>
+        </tr>
+        <tr>
+        <th class="phone-info-wrapper-tags">Notas</th>
+        </tr>
+        <tr>
+        <th>Custo-benefício</th>
+        <td><%= descricaoModelo.custoBeneficio %></td>
+        </tr>
+        <tr>
+        <th>Hardware</th>
+        <td><%= descricaoModelo.hardware %></td>
+        </tr>
+        <tr>
+        <th>Tela</th>
+        <td><%= descricaoModelo.tela %></td>
+        </tr>
+        <tr>
+        <th>Câmera</th>
+        <td><%= descricaoModelo.camera %></td>
+        </tr>
+        <tr>
+        <th>Desempenho</th>
+        <td><%= descricaoModelo.desempenho %></td>
+        </tr>
+    </table>
     </div>
 <% }) %>
