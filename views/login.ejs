@@ -1,0 +1,20 @@
+<h1><%= login.titulo %></h1>
+
+<div class="block">
+  <form>
+    <label for="email"><%= login.email %></label><br />
+    <input
+      id="email"
+      name="email"
+      type="email"
+      placeholder="email@exemplo.com"
+    /><br />
+
+    <label for="password"><%= login.senha%></label><br />
+    <input type="password" name="password" id="password" />
+  </form>
+</div>
+
+<button class="buttonLogin" type="submit">
+  <a href="/registerProduct"><%= login.button %> </a>
+</button>

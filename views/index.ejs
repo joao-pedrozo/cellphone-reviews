@@ -1,0 +1,11 @@
+<% marcas.forEach(marca => { %>
+  <a class="card" href="<%= marca.endereco %>" >
+    <div class="phone-review-title">
+      <span class="nome-marca"><%= marca.nome %></span>
+    </div>
+    <div class="phone-review-image-wrapper">
+      <img src= <%= marca.img %>>
+    </div>   
+  </a>
+<% }) %>
+ 

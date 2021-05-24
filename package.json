@@ -1,0 +1,25 @@
+{
+  "name": "cellphone-reviews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "only –ignore-watch node_modules "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-pedrozo/cellphone-reviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao-pedrozo/cellphone-reviews/issues"
+  },
+  "homepage": "https://github.com/joao-pedrozo/cellphone-reviews#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

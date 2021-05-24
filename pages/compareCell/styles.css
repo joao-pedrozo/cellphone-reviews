@@ -1,9 +1,0 @@
-.phones-info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.phones-info .phone-info {
-  margin: 0 60px;
-}

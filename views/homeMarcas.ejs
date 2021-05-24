@@ -1,0 +1,14 @@
+<% homeMarcas.forEach(homeMarcas => { %>
+  <a class="card" href="<%= homeMarcas.endereco %>">
+  <div class="phone-review-title">
+    <span><%= homeMarcas.modelo %></span>
+  </div>
+  <div class="phone-review-image-wrapper">
+    <img src="<%= homeMarcas.img%>" alt="" />
+  </div>
+  <div class="phone-review-rating">
+    <span><%= homeMarcas.classificacao %></span>
+    <span><%= homeMarcas.estrelas %></span>
+  </div>
+  </a>
+<% }) %>

@@ -1,0 +1,32 @@
+[
+    {
+        "nome" : "Apple",
+        "img" : "./img/Apple.png",
+        "endereco" : "./homeIphone"
+    }, 
+
+    { 
+        "nome" : "Samsung",
+        "img" : "./img/samsung.png",
+        "endereco" : "./homeSamsung"
+    },
+
+    {
+        "nome" : "Motorola",
+        "img" : "./img/motorola.png",
+        "endereco" : "./homeMotorola"
+    },
+    
+    {
+        "nome" : "Xiaomi",
+        "img" : "./img/xiaomi.png",
+        "endereco" : "./homeXiaomi"
+    },
+
+    {
+        "nome" : "Asus",
+        "img" : "./img/asus.png",
+        "endereco" : "./homeAsus"
+    }
+
+] 

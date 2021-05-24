@@ -1,0 +1,28 @@
+[
+    {
+        "endereco": "/MotorolaMotoG100",
+        "enderecoMarca": "/homeMotorola",
+        "marca" : "Motorola",
+        "modelo" : "Motorola Moto G 100",
+        "estrelas" : "★★★★",
+
+        "img" : "https://t2.tudocdn.net/566176?w=134&h=304",
+        "text" : "O Motorola Moto G100 é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.7 polegadas com uma resolução de 2520x1080 pixel. Sobre as características deste Motorola Moto G100 na verdade não falta nada. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 256 GB com a possibilidade de expansão. O Motorola Moto G100 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 64 megapixels que permite ao Motorola Moto G100 tirar fotos fantásticas com uma resolução de 9238x6928 pixels e gravar vídeos em 4K a espantosa resolução de 6144x3160 pixels.",
+
+        "sistemaOperacional" : "Android 11",
+        "disponibilidade" :"2021/1",
+        "dimensao" : "168.38 x 73.97 x 9.69 mm",
+        "peso": "190 gramas",
+        
+        "melhorPreco" : "R$ 3.399",
+        "faixaDePreco" : "R$ 3.399 - R$ 3.999",
+
+        "custoBeneficio" : "5.2 / 10",
+        "hardware" : "7.6 / 10",
+        "tela" : "8.4 / 10",
+        "camera" : "8.8 / 10",
+        "desempenho" : "7.5 / 10"
+                    
+    }
+
+]

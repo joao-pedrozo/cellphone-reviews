@@ -1,0 +1,27 @@
+[
+    {
+                "enderecoMarca" : "/homeSamsung",
+                "marca" : "Samsung",
+                "modelo" : "Samsung S20 FE",
+                "estrelas" : "★★★★",
+        
+                "img" : "https://t2.tudocdn.net/541797?w=142&h=304",
+                "text" : "O Samsung Galaxy S20 FE é um smartphone Android de bom nível, ótimo para fotos, que pode satisfazer até o mais exigente dos usuários. Tem uma enorme tela Touchscreen de 6.5 polegadas com uma resolução de 2400x1080 pixel. Sobre as características deste Samsung Galaxy S20 FE na verdade não falta nada. Começando pelo LTE 4G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS. Tem também leitor multimídia, videoconferência e bluetooth. Enfatizamos a boa memória interna de 128 GB com a possibilidade de expansão.          O Samsung Galaxy S20 FE é um produto com poucos concorrentes em termos de multimídia graças à câmera de 12 megapixels que permite ao Samsung Galaxy S20 FE tirar fotos de alta qualidade com uma resolução de 4000x3000 pixels e gravar vídeos em 4K a espantosa resolução de 3840x2160 pixels. Muito fino, 8.4 milímetros, o que torna o Samsung Galaxy S20 FE realmente interessante.",
+        
+                "sistemaOperacional" : "Android 10 Samsung One UI 2.5",
+                "disponibilidade" :"2020/3",
+                "dimensao" : "159.8 x 74.5 x 8.4 mm",
+                "peso": "190 gramas",
+                
+                "melhorPreco" : "R$ 2.469",
+                "faixaDePreco" : "R$ 2.469 - R$ 5.338",
+        
+                "custoBeneficio" : "7.8 / 10",
+                "hardware" : "8.7 / 10",
+                "tela" : "8.5 / 10",
+                "camera" : "7.6 / 10",
+                "desempenho" : "8.8 / 10"
+                            
+            }
+
+]

@@ -1,0 +1,27 @@
+[
+    {           
+                "enderecoMarca": "/homeAsus",
+                "marca" : "Asus",
+                "modelo" : "Asus ROG Phone 3",
+                "estrelas" : "★★★★",
+        
+                "img" : "https://t2.tudocdn.net/533373?w=139&h=304",
+                "text" : "O Asus ROG Phone 3 é um smartphone Android com características inovadoras que o tornam uma excelente opção para qualquer tipo de utilização. A tela de 6.59 polegadas coloca esse Asus no topo de sua categoria. A resolução também é alta: 2340x1080 pixel. As funcionalidades oferecidas pelo Asus ROG Phone 3 são muitas e top de linha. Começando pelo 5G que permite a transferência de dados e excelente navegação na internet, além de conectividade Wi-fi e GPS presente no aparelho. Tem também leitor multimídia, videoconferência, e bluetooth. Enfatizamos a excelente memória interna de 512 GB mas sem a possibilidade de expansão.                                                                             O Asus ROG Phone 3 é um produto com poucos concorrentes em termos de multimídia graças à câmera de 64 megapixels que permite tirar fotos fantásticas com uma resolução de 9238x6928 pixels e gravar vídeos em 8K a espantosa resolução de 7680x4320 pixels. A espessura de 9.9 milímetros é realmente ótima e torna o Asus ROG Phone 3 ainda mais espetacular.",
+        
+                "sistemaOperacional" : "Android 10 ROG Gaming UI",
+                "disponibilidade" :"2020/03",
+                "dimensao" : "171 x 78 x 9.85 mm",
+                "peso": "240 gramas",
+                
+                "melhorPreco" : "R$ 5.524",
+                "faixaDePreco" : "R$ 5.524 - R$ 6.499",
+        
+                "custoBeneficio" : "6.6 / 10",
+                "hardware" : "9.1 / 10",
+                "tela" : "8.4 / 10",
+                "camera" : "8.7 / 10",
+                "desempenho" : "9.5 / 10"
+                            
+            }
+
+]
